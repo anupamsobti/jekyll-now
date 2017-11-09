@@ -4,7 +4,7 @@ title: Dice Game on a CPLD
 date: 2016-03-13T20:00:14+00:00
 author: anupamsobti
 layout: post
-guid: http://anupamsobti.com/?p=207
+guid: /?p=207
 permalink: /2016/03/13/dice-game-on-a-cpld/
 dsq_thread_id:
   - "6219267612"
@@ -24,32 +24,32 @@ A complex programmable logic device (CPLD) is a device which uses macrocells in 
 
 We were provided by a kit called PalDuino, which is a CPLD version of Arduino. It has the capability of programming via JTAG and pinheads in order to mount peripherals.
 
-<a href="http://anupamsobti.com/2016/03/13/dice-game-on-a-cpld/palduino/" rel="attachment wp-att-208"><img class="alignnone wp-image-208 size-large" src="http://anupamsobti.com/wp-content/uploads/2016/03/PalDuino-1024x583.png" alt="PalDuino" width="711" height="405" srcset="http://anupamsobti.com/wp-content/uploads/2016/03/PalDuino-1024x583.png 1024w, http://anupamsobti.com/wp-content/uploads/2016/03/PalDuino-300x171.png 300w, http://anupamsobti.com/wp-content/uploads/2016/03/PalDuino-768x437.png 768w, http://anupamsobti.com/wp-content/uploads/2016/03/PalDuino-615x350.png 615w, http://anupamsobti.com/wp-content/uploads/2016/03/PalDuino.png 1131w" sizes="(max-width: 711px) 100vw, 711px" /></a>
+<a href="/2016/03/13/dice-game-on-a-cpld/palduino/" rel="attachment wp-att-208"><img class="alignnone wp-image-208 size-large" src="/wp-content/uploads/2016/03/PalDuino-1024x583.png" alt="PalDuino" width="711" height="405" srcset="/wp-content/uploads/2016/03/PalDuino-1024x583.png 1024w, /wp-content/uploads/2016/03/PalDuino-300x171.png 300w, /wp-content/uploads/2016/03/PalDuino-768x437.png 768w, /wp-content/uploads/2016/03/PalDuino-615x350.png 615w, /wp-content/uploads/2016/03/PalDuino.png 1131w" sizes="(max-width: 711px) 100vw, 711px" /></a>
 
 The shield looked like this, mounted on top of Palduino.
 
-<a href="http://anupamsobti.com/2016/03/13/dice-game-on-a-cpld/palduinoshield/" rel="attachment wp-att-209"><img class="alignnone size-full wp-image-209" src="http://anupamsobti.com/wp-content/uploads/2016/03/PalduinoShield.png" alt="PalduinoShield" width="684" height="566" srcset="http://anupamsobti.com/wp-content/uploads/2016/03/PalduinoShield.png 684w, http://anupamsobti.com/wp-content/uploads/2016/03/PalduinoShield-300x248.png 300w, http://anupamsobti.com/wp-content/uploads/2016/03/PalduinoShield-423x350.png 423w" sizes="(max-width: 684px) 100vw, 684px" /></a>
+<a href="/2016/03/13/dice-game-on-a-cpld/palduinoshield/" rel="attachment wp-att-209"><img class="alignnone size-full wp-image-209" src="/wp-content/uploads/2016/03/PalduinoShield.png" alt="PalduinoShield" width="684" height="566" srcset="/wp-content/uploads/2016/03/PalduinoShield.png 684w, /wp-content/uploads/2016/03/PalduinoShield-300x248.png 300w, /wp-content/uploads/2016/03/PalduinoShield-423x350.png 423w" sizes="(max-width: 684px) 100vw, 684px" /></a>
 
 We got all this ready-made, thanks to the seniors in the lab. We were all set to write the VHDL now. It was only after a few days of struggling to make things work that we realized how important it is to use a modular approach. The most crucial point in defining an FSM is thinking of what the states should be. Once you have defined what the states are, the rest of the FSM is a piece of cake. Whether you&#8217;re trying to model the operation in a Moore or a Mealy Machine, the definition of the states is the most crucial step.
 
 The game is rather simple. We took a few defined rules to define when a user would win/lose. It can be summarized using the following diagram:
 
-<a href="http://anupamsobti.com/2016/03/13/dice-game-on-a-cpld/dicegame/" rel="attachment wp-att-210"><img class="alignnone size-full wp-image-210" src="http://anupamsobti.com/wp-content/uploads/2016/03/DiceGame.png" alt="DiceGame" width="1016" height="549" srcset="http://anupamsobti.com/wp-content/uploads/2016/03/DiceGame.png 1016w, http://anupamsobti.com/wp-content/uploads/2016/03/DiceGame-300x162.png 300w, http://anupamsobti.com/wp-content/uploads/2016/03/DiceGame-768x415.png 768w, http://anupamsobti.com/wp-content/uploads/2016/03/DiceGame-648x350.png 648w" sizes="(max-width: 1016px) 100vw, 1016px" /></a>
+<a href="/2016/03/13/dice-game-on-a-cpld/dicegame/" rel="attachment wp-att-210"><img class="alignnone size-full wp-image-210" src="/wp-content/uploads/2016/03/DiceGame.png" alt="DiceGame" width="1016" height="549" srcset="/wp-content/uploads/2016/03/DiceGame.png 1016w, /wp-content/uploads/2016/03/DiceGame-300x162.png 300w, /wp-content/uploads/2016/03/DiceGame-768x415.png 768w, /wp-content/uploads/2016/03/DiceGame-648x350.png 648w" sizes="(max-width: 1016px) 100vw, 1016px" /></a>
 
 The Seven Segment Displays (SSDs) were multiplexed with a common data bus and transistors connected to enable the SSDs separately. Only one of the SSDs should be enabled at one time so as to display the desired data. The data is switched each time before the next SSD is turned on. This takes place at such a rapid rate so as to create an effect such that all the SSDs are displaying data simultaneously. Therefore, two FSMs had to be implemented. Firstly, an FSM for controlling the SSDs. Two of the SSDs showed the number generated by the two dice and one of the other two used three segments to indicate whether a player Won, Lost or needs to Play Again.
 
 The first FSM had to take an input data and mutliplex the SSDs to show the same. Following diagram shows this FSM:
 
-<a href="http://anupamsobti.com/2016/03/13/dice-game-on-a-cpld/ssddisplayfsm/" rel="attachment wp-att-211"><img class="alignnone wp-image-211 " src="http://anupamsobti.com/wp-content/uploads/2016/03/SSDDisplayFSM.png" alt="SSDDisplayFSM" width="510" height="441" /></a>
+<a href="/2016/03/13/dice-game-on-a-cpld/ssddisplayfsm/" rel="attachment wp-att-211"><img class="alignnone wp-image-211 " src="/wp-content/uploads/2016/03/SSDDisplayFSM.png" alt="SSDDisplayFSM" width="510" height="441" /></a>
 
 There are a few typos in the diagram. In S3, Data = Digit2 and in S6, Data = Off.
 
 The other FSM denotes the game control. It might be a little hard to understand but I recommend trying to make it yourself and comparing afterwards. Following is the diagram for the same:
 
-<a href="http://anupamsobti.com/2016/03/13/dice-game-on-a-cpld/gamefsm/" rel="attachment wp-att-212"><img class="alignnone size-full wp-image-212" src="http://anupamsobti.com/wp-content/uploads/2016/03/GameFSM.png" alt="GameFSM" width="635" height="573" srcset="http://anupamsobti.com/wp-content/uploads/2016/03/GameFSM.png 635w, http://anupamsobti.com/wp-content/uploads/2016/03/GameFSM-300x271.png 300w, http://anupamsobti.com/wp-content/uploads/2016/03/GameFSM-388x350.png 388w" sizes="(max-width: 635px) 100vw, 635px" /></a>
+<a href="/2016/03/13/dice-game-on-a-cpld/gamefsm/" rel="attachment wp-att-212"><img class="alignnone size-full wp-image-212" src="/wp-content/uploads/2016/03/GameFSM.png" alt="GameFSM" width="635" height="573" srcset="/wp-content/uploads/2016/03/GameFSM.png 635w, /wp-content/uploads/2016/03/GameFSM-300x271.png 300w, /wp-content/uploads/2016/03/GameFSM-388x350.png 388w" sizes="(max-width: 635px) 100vw, 635px" /></a>
 
 Both the FSMs are of Moore Type.
 
 The major challenge in the project was to figure out all the pieces of the puzzle. The game control and VHDL is easy once the states are defined well. The multiplexing took a little effort to be up since the data display stages had to be interjected with &#8220;Data Off&#8221; stages to prevent data of one SSD from going into another.
 
-After this you can load the constraints in the UPF file according to the hardware and burn away to get your Dice Game working. The VHDL Code is attached <a href="http://www.anupamsobti.com/miscProjectFiles/DiceGameCode.vhdl" target="_blank">here</a>.
+After this you can load the constraints in the UPF file according to the hardware and burn away to get your Dice Game working. The VHDL Code is attached <a href="/miscProjectFiles/DiceGameCode.vhdl" target="_blank">here</a>.

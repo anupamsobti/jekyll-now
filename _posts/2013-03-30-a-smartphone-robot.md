@@ -34,7 +34,7 @@ Since I already had my old phone lying around, it also gave us cost efficiency. 
 
 Here is the block diagram I thought of.
 
-<img class="alignnone wp-image-183 " src="http://anupamsobti.com/wp-content/uploads/2013/03/Communication-1-1024x478.png" alt="Communication" width="676" height="305" />
+<img class="alignnone wp-image-183 " src="/wp-content/uploads/2013/03/Communication-1-1024x478.png" alt="Communication" width="676" height="305" />
 
 &nbsp;
 
@@ -52,7 +52,7 @@ DC **Motors** were used for driving the robot, obtained from <a href="http://www
 
 Here is the schematic diagram of the connections you will need to make.
 
-[<img class="alignleft size-full wp-image-159" src="http://anupamsobti.com/wp-content/uploads/2013/04/smartphonebot.jpg" alt="Schematic" width="570" height="302" srcset="http://anupamsobti.com/wp-content/uploads/2013/04/smartphonebot.jpg 856w, http://anupamsobti.com/wp-content/uploads/2013/04/smartphonebot-300x159.jpg 300w, http://anupamsobti.com/wp-content/uploads/2013/04/smartphonebot-768x408.jpg 768w, http://anupamsobti.com/wp-content/uploads/2013/04/smartphonebot-658x350.jpg 658w" sizes="(max-width: 570px) 100vw, 570px" />](http://anupamsobti.com/wp-content/uploads/2013/04/smartphonebot.jpg)
+[<img class="alignleft size-full wp-image-159" src="/wp-content/uploads/2013/04/smartphonebot.jpg" alt="Schematic" width="570" height="302" srcset="/wp-content/uploads/2013/04/smartphonebot.jpg 856w, /wp-content/uploads/2013/04/smartphonebot-300x159.jpg 300w, /wp-content/uploads/2013/04/smartphonebot-768x408.jpg 768w, /wp-content/uploads/2013/04/smartphonebot-658x350.jpg 658w" sizes="(max-width: 570px) 100vw, 570px" />](/wp-content/uploads/2013/04/smartphonebot.jpg)
 
 &nbsp;
 
@@ -76,17 +76,17 @@ You can access the codes for the GUI and the code used in Arduino from <a href="
 
 The initial design was something like this:
 
-<img class="alignnone wp-image-182 size-medium" src="http://anupamsobti.com/wp-content/uploads/2013/03/InitialDesign-240x300.png" alt="InitialDesign" width="240" height="300" srcset="http://anupamsobti.com/wp-content/uploads/2013/03/InitialDesign-240x300.png 240w, http://anupamsobti.com/wp-content/uploads/2013/03/InitialDesign-280x350.png 280w, http://anupamsobti.com/wp-content/uploads/2013/03/InitialDesign.png 500w" sizes="(max-width: 240px) 100vw, 240px" />
+<img class="alignnone wp-image-182 size-medium" src="/wp-content/uploads/2013/03/InitialDesign-240x300.png" alt="InitialDesign" width="240" height="300" srcset="/wp-content/uploads/2013/03/InitialDesign-240x300.png 240w, /wp-content/uploads/2013/03/InitialDesign-280x350.png 280w, /wp-content/uploads/2013/03/InitialDesign.png 500w" sizes="(max-width: 240px) 100vw, 240px" />
 
 This human like bot had a great turning radius, but wasn&#8217;t very stable. The phone stand was drilled into the laser cut bottom and the arduino was mounted on the same. We decided to go with a much more aesthetically pleasing and stable bot for the final version. The design was made and laser cut. The final bot looked like this:
 
-<img class="alignnone wp-image-184 " src="http://anupamsobti.com/wp-content/uploads/2013/03/BotFinal.png" alt="BotFinal" width="764" height="564" />
+<img class="alignnone wp-image-184 " src="/wp-content/uploads/2013/03/BotFinal.png" alt="BotFinal" width="764" height="564" />
 
 Beauty! Isn&#8217;t it? 🙂
 
 The design was much more stable because of the weights being distributed properly. An analysis of the weight distribution is as illustrated below:
 
-<img class="alignnone wp-image-180 " src="http://anupamsobti.com/wp-content/uploads/2013/03/CentreOfMass.png" alt="CentreOfMass" width="695" height="583" />
+<img class="alignnone wp-image-180 " src="/wp-content/uploads/2013/03/CentreOfMass.png" alt="CentreOfMass" width="695" height="583" />
 
 The battery was placed below the Arduino, further stabilizing the robot. Overall, it was a fun experience. The thing that amazed me the most was that we worked on so many different platforms.
 
