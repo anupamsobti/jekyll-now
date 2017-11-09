@@ -40,7 +40,6 @@ The bottom Board : Control System of the Project
 [//]: # </figcaption>
 
 This consisted of the voltage regulation, 8085 (the brain), 8155 (the arms and legs), the EPROM and some other necessary peripherals required for the working of the system. The top board, as described above was the eye candy. It consisted of LEDs that would show the position of the current player, the number a player got on the dice and a few switches for controlling the game flow.<figure id="attachment_165" style="width: 581px" class="wp-caption alignnone">
-
 <img class="alignnone  wp-image-165" src="/wp-content/uploads/2016/01/topboard.png" alt="topboard" width="581" height="272" />
 </figure> 
 
