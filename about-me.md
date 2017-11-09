@@ -5,7 +5,7 @@ date: 2016-02-21T17:48:53+00:00
 author: anupamsobti
 layout: page
 guid: http://anupamsobti.com/?page_id=5
-permalink: /about-me/
+permalink: /about/
 ---
 I am currently a graduate student at IIT Delhi working on Embedded/Assistive Technologies.
 
