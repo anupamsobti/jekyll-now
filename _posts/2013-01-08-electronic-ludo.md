@@ -26,25 +26,33 @@ A detour was therefore taken in the microprocessors lab. Instead of the traditio
 
 The initial idea looked something like this in Google&#8217;s 3D view software:
 
-<img class="  wp-image-163 alignnone" src="/wp-content/uploads/2016/01/ludo1.png" alt="ludo1" width="578" height="271" srcset="/wp-content/uploads/2016/01/ludo1.png 1300w, wp-content/uploads/2016/01/ludo1-300x141.png 300w, wp-content/uploads/2016/01/ludo1-768x360.png 768w, wp-content/uploads/2016/01/ludo1-1024x480.png 1024w, wp-content/uploads/2016/01/ludo1-700x328.png 700w" sizes="(max-width: 578px) 100vw, 578px" />
+<img class="  wp-image-163 alignnone" src="/wp-content/uploads/2016/01/ludo1.png" alt="ludo1" width="578" height="271" srcset="/wp-content/uploads/2016/01/ludo1.png 1300w, /wp-content/uploads/2016/01/ludo1-300x141.png 300w, /wp-content/uploads/2016/01/ludo1-768x360.png 768w, /wp-content/uploads/2016/01/ludo1-1024x480.png 1024w, /wp-content/uploads/2016/01/ludo1-700x328.png 700w" sizes="(max-width: 578px) 100vw, 578px" />
 
 After quite a few iterations on paper and eagle for the schematics and board layouts, we decided on having two boards stacked onto each other to distribute the complexity of the design. The boards were manufactured with the help of a local PCB vendor, Daljeet Singh. The board on the bottom would be the control unit responsible for majority of decision making and data crunching required; and the top board would be the eye candy, the necessary game controls and visuals along with the necessary drivers (PNP transistors) for the LEDs.
 
 The bottom board, pre-fabrication looked like this:<figure id="attachment_164" style="width: 573px" class="wp-caption alignnone">
 
-<img class="alignnone  wp-image-164" src="/wp-content/uploads/2016/01/bottomboard.png" alt="bottomBoard" width="573" height="276" /><figcaption class="wp-caption-text">The bottom Board : Control System of the Project</figcaption></figure> 
+<img class="alignnone  wp-image-164" src="/wp-content/uploads/2016/01/bottomboard.png" alt="bottomBoard" width="573" height="276" />
+[//]: # <figcaption class="wp-caption-text">
+The bottom Board : Control System of the Project
+[//]: # </figcaption>
+</figure> 
 
 This consisted of the voltage regulation, 8085 (the brain), 8155 (the arms and legs), the EPROM and some other necessary peripherals required for the working of the system. The top board, as described above was the eye candy. It consisted of LEDs that would show the position of the current player, the number a player got on the dice and a few switches for controlling the game flow.<figure id="attachment_165" style="width: 581px" class="wp-caption alignnone">
 
-<img class="alignnone  wp-image-165" src="/wp-content/uploads/2016/01/topboard.png" alt="topboard" width="581" height="272" /><figcaption class="wp-caption-text">The top board : The LED arrangement has provisions for the player position and the centre of the board shows the dice in it&#8217;s typical arrangement.</figcaption></figure> 
+<img class="alignnone  wp-image-165" src="/wp-content/uploads/2016/01/topboard.png" alt="topboard" width="581" height="272" />
+[\\]: # <figcaption class="wp-caption-text">
+The top board : The LED arrangement has provisions for the player position and the centre of the board shows the dice in it&#8217;s typical arrangement.
+[\\]: # </figcaption>
+</figure> 
 
 The two boards were stacked upon each other using burgstrips. After a few evenings spent on testing the LEDs and soldering everything together, the final shape of the board was ready. A top view of the real hardware can be seen as under.
 
-[<img id="i-33" class="size-full wp-image alignnone" src="/wp-content/uploads/2013/01/img_0003.jpg?w=580" alt="Image" />](wp-content/uploads/2013/01/img_0003.jpg)
+[<img id="i-33" class="size-full wp-image alignnone" src="/wp-content/uploads/2013/01/img_0003.jpg?w=580" alt="Image" />](/wp-content/uploads/2013/01/img_0003.jpg)
 
 and a side view demonstrates the stacking of two boards over each other using pinheads.
 
-[<img id="i-37" class="size-full wp-image alignnone" src="/wp-content/uploads/2013/01/img_0004.jpg?w=580" alt="Image" />](wp-content/uploads/2013/01/img_0004.jpg)
+[<img id="i-37" class="size-full wp-image alignnone" src="/wp-content/uploads/2013/01/img_0004.jpg?w=580" alt="Image" />](/wp-content/uploads/2013/01/img_0004.jpg)
 
 The schematic, layout and source code may be downloaded from <a title="Files" href="https://docs.google.com/open?id=0B7Te24iPllNVN3Jkb1FHRFJsSUE" target="_blank">here.</a>
 
@@ -81,6 +89,6 @@ It was one hell of a project, loads of learning and the realisation that every t
 
 &nbsp;
 
-Some notes during the algorithm development are [here !](wp-content/uploads/2013/01/electronic-ludo.pdf).
+Some notes during the algorithm development are [here !](/wp-content/uploads/2013/01/electronic-ludo.pdf).
 
 The following video unveils the beast 😛
