@@ -34,7 +34,7 @@ For example, if there is a lot of bass in the music, it would translate to a low
 
 <a href="/2016/03/13/arduino-color-organ/implementation/" rel="attachment wp-att-202"><img class="wp-image-202 size-full" src="/wp-content/uploads/2016/03/Implementation.png" alt="Implementation of the overall system" width="575" height="262" srcset="/wp-content/uploads/2016/03/Implementation.png 575w, /wp-content/uploads/2016/03/Implementation-300x137.png 300w" sizes="(max-width: 575px) 100vw, 575px" /></a>Implementation of the overall system</figure> 
 
-The FFT was implemented using the FFT Library available here: http://neuroelec.googlecode.com/files/ffft_Library.zip
+The FFT was implemented using the FFT Library available here: https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/neuroelec/ffft_library_for_Arduino_1.0.zip
 
 The Library was also accompanied by a wonderful processing application, FFTVisualizer. We used this application while testing the frequency translation through a Function Generator. The following setup was done in order to probe the signal and the serial data of FFT was communicated to the PC via USB.
 
