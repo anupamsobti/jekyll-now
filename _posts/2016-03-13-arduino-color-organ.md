@@ -50,6 +50,6 @@ Now that my hardware was working, a few more modifications were done in the code
 
 The final test was done with the audio from mobile phone. We used an audio splitter so that we could connect both the speakers as well as the Arduino with the audio signal. The resultant video is here:
 
-
+[![Arduino Color Organ](http://img.youtube.com/vi/iIjmjBj5BFQ/0.jpg)](https://www.youtube.com/watch?v=iIjmjBj5BFQ)
 
 The project is a fun way to understand the concepts of sound, frequency and basics of electronics. Have fun!
