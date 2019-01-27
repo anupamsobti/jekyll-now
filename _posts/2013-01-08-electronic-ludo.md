@@ -4,7 +4,7 @@ title: Electronic Ludo
 date: 2013-01-08T20:38:42+00:00
 author: anupamsobti
 layout: post
-guid: http://opensekrets.wordpress.com/?p=31
+guid: /?p=31
 permalink: /2013/01/08/electronic-ludo/
 dsq_thread_id:
   - "6145459850"

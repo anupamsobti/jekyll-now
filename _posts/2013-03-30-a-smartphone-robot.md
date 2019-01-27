@@ -4,7 +4,7 @@ title: A Smartphone Robot
 date: 2013-03-30T16:31:06+00:00
 author: anupamsobti
 layout: post
-guid: http://opensekrets.wordpress.com/?p=73
+guid: /?p=73
 permalink: /2013/03/30/a-smartphone-robot/
 dsq_thread_id:
   - "6166991992"

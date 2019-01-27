@@ -3,7 +3,7 @@ id: 237
 title: 'Object Detection in Real-Time Systems'
 author: anupamsobti
 layout: post
-guid: http://anupamsobti.com/?p=236
+guid: /?p=236
 permalink: /2017/11/30/object-detection-in-real-time-systems/
 dsq_thread_id:
   - "6139360851"

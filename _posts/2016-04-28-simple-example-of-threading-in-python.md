@@ -4,7 +4,7 @@ title: Simple Example of Threading in Python
 date: 2016-04-28T15:41:48+00:00
 author: anupamsobti
 layout: post
-guid: http://anupamsobti.com/?p=226
+guid: /?p=226
 permalink: /2016/04/28/simple-example-of-threading-in-python/
 dsq_thread_id:
   - "6179546115"

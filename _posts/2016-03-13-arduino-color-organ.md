@@ -4,7 +4,7 @@ title: Arduino Color Organ
 date: 2016-03-13T18:14:40+00:00
 author: anupamsobti
 layout: post
-guid: http://opensekrets.wordpress.com/?p=30
+guid: /?p=30
 permalink: /2016/03/13/arduino-color-organ/
 dsq_thread_id:
   - "6141123661"
@@ -46,7 +46,7 @@ A Bayonet Connector (the one used with oscilloscopes) was soldered with 2 wires 
 
 This happened when there was a fest ongoing in the college. This was the &#8220;Eureka&#8221; moment for me after a lot of days of effort. After confirming I could replicate the results at different frequencies, I headed to the musical night 🙂
 
-Now that my hardware was working, a few more modifications were done in the code to separate this entire spectrum into 3 bands which could be transformed into the light intensity of LEDs. The code is attached <a href="http://www.anupamsobti.com/miscProjectFiles/ColorOrganCode.ino" target="_blank">here</a>. I left the original comments in the code which point to the processing application and some other resources.
+Now that my hardware was working, a few more modifications were done in the code to separate this entire spectrum into 3 bands which could be transformed into the light intensity of LEDs. The code is attached <a href="http://www.anupamsobti.github.io/miscProjectFiles/ColorOrganCode.ino" target="_blank">here</a>. I left the original comments in the code which point to the processing application and some other resources.
 
 The final test was done with the audio from mobile phone. We used an audio splitter so that we could connect both the speakers as well as the Arduino with the audio signal. The resultant video is here:
 

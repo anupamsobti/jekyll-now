@@ -4,7 +4,7 @@ title: 'The Student&#8217;s paradise'
 date: 2016-09-13T18:45:59+00:00
 author: anupamsobti
 layout: post
-guid: http://anupamsobti.com/?p=236
+guid: /?p=236
 permalink: /2016/09/13/the-students-paradise/
 dsq_thread_id:
   - "6139360851"
