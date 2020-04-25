@@ -5,10 +5,13 @@ author: anupamsobti
 layout: post
 guid: /?p=236
 permalink: /2017/11/30/object-detection-in-real-time-systems/
+image: images/sysmetrics-paper-blog/cars.jpg
+featured: true
+hidden: true
 dsq_thread_id:
   - "6139360851"
 categories:
-  - Uncategorized
+  - Computer Vision
 tags:
   - Object Detection
   - Real-Time systems

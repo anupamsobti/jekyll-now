@@ -8,7 +8,7 @@ guid: /?p=31
 permalink: /2013/01/08/electronic-ludo/
 dsq_thread_id:
   - "6145459850"
-image: /wp-content/uploads/2016/01/ludo1.png
+image: wp-content/uploads/2016/01/ludo1.png
 categories:
   - Electronic Projects
 tags:

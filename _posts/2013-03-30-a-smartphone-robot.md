@@ -8,7 +8,7 @@ guid: /?p=73
 permalink: /2013/03/30/a-smartphone-robot/
 dsq_thread_id:
   - "6166991992"
-image: /wp-content/uploads/2013/03/BotFinal.png
+image: wp-content/uploads/2013/03/BotFinal.png
 categories:
   - Electronic Projects
 tags:

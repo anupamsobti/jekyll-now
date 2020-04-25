@@ -4,12 +4,15 @@ title: 'The Student&#8217;s paradise'
 date: 2016-09-13T18:45:59+00:00
 author: anupamsobti
 layout: post
+featured: true
+hidden: true
 guid: /?p=236
 permalink: /2016/09/13/the-students-paradise/
+image: images/students-banner.jpg
 dsq_thread_id:
   - "6139360851"
 categories:
-  - Uncategorized
+  - Philosophy 
 ---
 Remember that teacher from school who inspired you to do every math problem in the book twice? Or the one who explained poems like never before? Oh, and there was also this teacher who felt so wonderful listening to us singing in the group that she couldn&#8217;t stop smiling! How many such teachers do you recall?
   

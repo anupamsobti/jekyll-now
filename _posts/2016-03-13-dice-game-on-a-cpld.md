@@ -8,9 +8,9 @@ guid: /?p=207
 permalink: /2016/03/13/dice-game-on-a-cpld/
 dsq_thread_id:
   - "6219267612"
-image: /wp-content/uploads/2016/03/PalduinoShield.png
+image: wp-content/uploads/2016/03/PalduinoShield.png
 categories:
-  - Uncategorized
+  - Electronic Projects
 tags:
   - cedt
   - cpld

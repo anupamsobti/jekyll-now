@@ -8,9 +8,9 @@ guid: /?p=30
 permalink: /2016/03/13/arduino-color-organ/
 dsq_thread_id:
   - "6141123661"
-image: /wp-content/uploads/2016/03/Implementation.png
+image: wp-content/uploads/2016/03/Implementation.png
 categories:
-  - Uncategorized
+  - Electronic Projects
 tags:
   - Arduino
   - cedt
