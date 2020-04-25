@@ -93,3 +93,5 @@ It was one hell of a project, loads of learning and the realisation that every t
 Some notes during the algorithm development are [here !](/wp-content/uploads/2013/01/electronic-ludo.pdf).
 
 The following video unveils the beast 😛
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/iIjmjBj5BFQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
