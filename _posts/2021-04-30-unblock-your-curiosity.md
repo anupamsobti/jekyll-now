@@ -1,15 +1,19 @@
-
 ---
 title: Unblock Your Curiosity
 author: anupamsobti
 layout: post
 image: images/owl-curiosity.jpg
-featured:
-hidden:
+featured: true
+dsq_thread_id:
+  - "6139360851"
+hidden: true
 categories:
 	philosophy
 tags:
-	curiosity, phd, creativity, flow
+	- curiosity
+	- phd 
+	- creativity
+    - flow
 ---
 
 # Unblock your curiosity
