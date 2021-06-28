@@ -1,11 +1,11 @@
 ---
 id: 
 title: Shaadi
-layout: page
+layout: page_noheader
 permalink: /shaadi/
 ---
 
-Welcome to the Shaadi ceremony for Anupam and Shreya!
+Welcome to the Shaadi ceremony of Anupam and Shreya!
 
 ![Pictah](../images/cartoon-couple.jpg)
 
