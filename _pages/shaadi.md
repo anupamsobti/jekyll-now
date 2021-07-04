@@ -5,10 +5,6 @@ layout: page_noheader
 permalink: /shaadi/
 ---
 
-# Welcome to the Shaadi ceremony of Anupam and Shreya!
+# Sagan Ceremony streaming will start at 6pm on 5th July 2021
 
-## 6th July 2021
-![Pictah](../images/cartoon-couple.jpg)
-
-## Link for the live stream will appear here.
-
+[Click here to start watching](https://www.youtube.com/watch?v=DNZYdU3Benc)
