@@ -9,4 +9,7 @@ permalink: /shaadi/
 
 # Haldi Ceremony streaming will start at 9 am on 6th July 2021 - [Start watching](https://youtu.be/rEeyObVdJXw)
 # Part 2 [Click here](https://youtu.be/32F7JuTwbTw)
-# Wedding Ceremony streaming will start at 6:30 pm on 6th July 2021 - [Start watching Part 1](https://youtu.be/oDc-yzHrJ9g) [Start Watching Part 2](https://youtu.be/jlpPyySTJB0)
+
+# Wedding Ceremony streaming will start at 6:30 pm on 6th July 2021 - 
+[Start watching Part 1](https://youtu.be/oDc-yzHrJ9g) 
+[Start Watching Part 2](https://youtu.be/jlpPyySTJB0)
